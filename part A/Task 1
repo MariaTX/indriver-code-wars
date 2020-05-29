@@ -1,0 +1,9 @@
+mov a 7
+mov b 4
+mov sum 0
+mov count 0
+label cycle
+add count 1
+add sum a
+jl count b cycle
+print sum
