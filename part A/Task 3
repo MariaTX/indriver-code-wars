@@ -1,0 +1,13 @@
+mov n 8
+mov a 0
+mov b 1
+mov c 0
+mov count 1
+label loop
+mov c b
+add a b
+mov b a
+mov a c
+add count 1
+jl count n loop
+print b
