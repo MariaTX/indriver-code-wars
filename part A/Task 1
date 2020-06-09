@@ -1,3 +1,8 @@
+//Task 1
+//You are given 2 numbers. Find multiplivation.
+//5*5 #output 25
+//7*4 #output 28
+
 mov a 7
 mov b 4
 mov sum 0
