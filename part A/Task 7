@@ -1,0 +1,38 @@
+Task7. 
+​ https://gameindriver.ru
+
+You are given m and n numbers. Need to print Remainder
+10
+2
+#output 0
+17
+5
+#output 2
+
+mov m 22
+mov n 5
+mov temp n
+mov count 0
+label loop
+add n temp
+add count 1
+jl n m loop
+jl m n result
+add count 1
+label result
+mov a 1
+mov n temp
+label loop2
+add a 1
+add n temp
+jl a count loop2
+mov b 0
+mov temp n
+add temp 1
+jl m temp answer
+label loop3
+add n 1
+add b 1
+jl n m loop3
+label answer
+print b
