@@ -24,9 +24,10 @@ Sum a and b and save the sum in a. (add ax 42 increases a to 42)
 
 create a note with a title mylabel for the next code string. This note could be used to jump with jl command. Name can consists of letters or numbers.
 
-# jl ax bx my label
+# jl ax bx mylabel
 
-​If ax < bx then you go to the code line – mylabel, and the following code string is executed. Otherwise the command after jl is executed
+​If ax < bx then you go to the codeline titled "mylabel", and the following code is executed. 
+Otherwise the command after jl is executed
 
 # print ax
 
