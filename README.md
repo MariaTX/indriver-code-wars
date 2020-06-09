@@ -40,9 +40,13 @@ input ax
 Print sum of two integers
 
 mov a 1
+
 mov b 2
+
 add a b 
+
 print a 
+
 (#output 3)
 
 # Example 2. 
@@ -50,11 +54,17 @@ print a
 Print numbers from 1 to N.
 
 mov n 10
+
 mov a 0
+
 label loop
+
 add a 1
+
 print a
+
 jl a n loop 
+
 (#output 1 2 3 4 5 6 7 8 9 10)
 
 # Example 3. 
@@ -62,11 +72,16 @@ jl a n loop
 Find the biggest of two numbers
 
 mov a 42
+
 mov b 20
+
 jl b a result
+
 mov a b
 label result
+
 print a 
+
 (#output 42)
 
 # Part A consists of 8 tasks.
