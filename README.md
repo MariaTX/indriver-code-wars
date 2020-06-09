@@ -1,4 +1,4 @@
-*Code Wars.*
+#Code Wars.*
 
  In a far far away galaxy …
 ….a spacecraft named “Falcon 1000” had a crash. Please help rioters to repair the engine. A translator  R2 D2 is partly broken. You need to write a code using 
@@ -7,7 +7,7 @@ R2 D2, but it's able to do only a few commands.
 Testing could be done here - https://gameindriver.ru
 
 
-R2 D2 syntaxis 
+#R2 D2 syntaxis 
 
 Damaged R2 D2 accept only positive integers and constants no more than 2^32. It only accepts lower case variables. If there are numbers, they are regarded as constants. By default every variable equals 0.
 
@@ -92,7 +92,7 @@ sum.py – generated Python source code
 
 
 It will be executed:
-# python c3po_translator.py sum.r2d2 sum.py
+python c3po_translator.py sum.r2d2 sum.py
 Text of sum.py could look like:
 a = input()
 b = input()
