@@ -1,0 +1,24 @@
+Task 6. 
+https://gameindriver.ru
+
+Need to print the Quotient 
+10
+2
+#output 5
+
+17
+5
+#output 3
+
+mov x 17
+mov y 7
+mov temp y
+mov count 0
+label loop
+add y temp
+add count 1
+jl y x loop
+jl x y result
+add count 1
+label result
+print count
