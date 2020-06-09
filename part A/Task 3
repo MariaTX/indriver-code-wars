@@ -1,3 +1,10 @@
+Find the minimum. Three numbers are given. If numbers are equal print any of them
+5, 6, 7
+#output 5
+
+65, 122, 3
+#output 3
+
 mov n 8
 mov a 0
 mov b 1
