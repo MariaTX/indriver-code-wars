@@ -1,9 +1,12 @@
-Find the minimum. Three numbers are given. If numbers are equal print any of them
-5, 6, 7
+The Fibonacci sequence.
+You are given a number n. You need to find the nth number from Fibonacci sequence.
+Fibonacci: 1 1 2 3 5 8 13 21 …...
+5
 #output 5
 
-65, 122, 3
-#output 3
+8
+#output 21
+
 
 mov n 8
 mov a 0
