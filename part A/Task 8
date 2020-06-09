@@ -1,0 +1,37 @@
+Task 8. 
+You can check it here - https://gameindriver.ru
+
+Check the triangle.
+A,b and c are the sides of a triangle. Print out whether it’s possible to create a triangle. 1 if “yes, 0 if not possible.
+2
+9
+12
+#output 0
+
+2
+9
+10
+#output 1
+
+mov a 7
+mov b 7
+mov c 11
+mov x 0
+mov y 0
+mov z 0
+add x a
+add x b
+add y b
+add y c
+add z a
+add z c
+add a 1
+add b 1
+add c 1
+mov ans 0
+jl x c result
+jl y a result
+jl z b result
+mov ans 1
+label result
+print ans
