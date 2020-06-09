@@ -7,7 +7,7 @@ R2 D2, but it could do only a few commands.
 Testing could be done here - https://gameindriver.ru
 
 
-R2 D2 syntaxis
+R2 D2 syntaxis /n
 Damaged R2 D2 accept only positive integers and constants no more than 2^32. It only accepts lower case variables. If there are numbers, they are regarded as constants. By default every variable equals 0.
 
 mov ax bx 
