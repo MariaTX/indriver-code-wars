@@ -1,0 +1,27 @@
+Task5.
+Power. You’re given two numbers m and p. Need to find n^p
+2
+5
+#output 32
+
+5
+2
+#output 25
+
+mov n 3
+mov p 4
+mov k 1
+mov b n
+mov d 1
+mov res n
+label cycle
+add k 1
+add res b
+jl k n cycle
+mov k 0
+mov b res
+mov res 0
+add d 1
+jl d p cycle
+label result
+print b
