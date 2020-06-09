@@ -1,7 +1,7 @@
-Code Wars.
+*Code Wars.*
 
  In a far far away galaxy …
-….a spacecraft named “Falcon 1000” had a crash, so R2 D2 droids got damaged. Please help rioters to repair the engine. A translator  R2 D2 is partly broken. You need to write a code using 
+….a spacecraft named “Falcon 1000” had a crash. Please help rioters to repair the engine. A translator  R2 D2 is partly broken. You need to write a code using 
 R2 D2, but it could do only a few commands.
 
 Testing could be done here - https://gameindriver.ru
