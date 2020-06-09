@@ -1,0 +1,30 @@
+Task 4. 
+Factorial
+You are given n number. Factorial required to be printed.
+5
+#output 120
+
+8
+#output 40320
+
+mov x 3
+mov p x
+mov b 1
+mov d 1
+jl x 3 firstnumber
+mov p 2
+mov b 2
+mov k 0
+mov d 3
+mov res 0
+label firstnumber
+label cycle
+add k 1
+add res p
+jl k d cycle
+add d 1 
+mov k 1
+mov p res
+add b 1
+jl b x cycle
+print res
