@@ -102,19 +102,29 @@ When translating, code is generated in your programming language. Those. source 
 
 Example.
 c3po_itranslatr.py – your interpreter in Python
+
 input.txt – file with input data (numbers 10 and 20 in our case)
+
 sum.r2d2 – code of the program in R2 D2
+
 sum.py – generated Python source code
 
 
 It will be executed:
+
 python c3po_translator.py sum.r2d2 sum.py
+
 Text of sum.py could look like:
+
 a = input()
+
 b = input()
+
 a = a + b
+
 print(a)
 
 Further this program can run without R2 D2
+
 #python sum.py < input.txt
 #30
