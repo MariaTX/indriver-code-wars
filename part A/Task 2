@@ -1,0 +1,16 @@
+Find the minimum. Three numbers are given. If numbers are equal print any of them
+5
+6
+7
+#output 5
+//Solution
+mov a 11
+mov b 70
+mov c 2
+jl a b result
+mov a b
+label result 
+jl a c result2
+mov a c
+label result2 
+print a
