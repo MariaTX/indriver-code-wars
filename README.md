@@ -68,3 +68,37 @@ mov a b
 label result
 print a 
 (#output 42)
+
+Part A consists of 8 tasks.
+
+Part B.
+You need to write R2 D2 language interpreter in any coding language you like.
+
+Example.
+c3po_interpreter.py – your interpreter in Python
+input.txt – file with input data (numbers 10 and 20 in our case)
+sum.r2d2 – code of the program in R2 D2
+
+
+Part C
+Create a translator to R2 D2. 
+When translating, code is generated in your programming language. Those. source code in R2-D2 language after translation no longer participates in the process. Your program received by translation must be compiled or run through its interpreter
+
+Example.
+c3po_itranslatr.py – your interpreter in Python
+input.txt – file with input data (numbers 10 and 20 in our case)
+sum.r2d2 – code of the program in R2 D2
+sum.py – generated Python source code
+
+
+It will be executed:
+# python c3po_translator.py sum.r2d2 sum.py
+Text of sum.py could look like:
+a = input()
+b = input()
+a = a + b
+print(a)
+
+Further this program can run without R2 D2
+# python sum.py < input.txt
+#30
